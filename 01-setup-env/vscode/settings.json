@@ -1,0 +1,14 @@
+
+{
+  "go.formatTool": "gofmt",
+  "go.lintTool": "revive",
+  "go.lintFlags": [
+    "--exclude vendor/..."
+  ],
+  "go.docsTool": "gogetdoc",
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatFlags": [
+    "-s"
+  ],
+  "go.useLanguageServer": true
+}
