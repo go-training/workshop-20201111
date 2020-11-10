@@ -1,12 +1,12 @@
 # Benchmark in Golang
 
 ```sh
-$ go test -v -bench=. -run=none -benchmem .
+go test -v -bench=. -run=none -benchmem .
 ```
 
 result:
 
-```
+```sh
 goos: darwin
 goarch: amd64
 BenchmarkPrintInt2String01-4    10000000               117 ns/op              16 B/op          2 allocs/op
