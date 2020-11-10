@@ -1,6 +1,6 @@
 
 {
-  "go.formatTool": "gofmt",
+  "go.formatTool": "goimports",
   "go.lintTool": "revive",
   "go.lintFlags": [
     "--exclude vendor/..."
@@ -10,5 +10,10 @@
   "go.formatFlags": [
     "-s"
   ],
-  "go.useLanguageServer": true
+  "go.useLanguageServer": true,
+
+  "window.nativeTabs": true,
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true
 }
