@@ -20,3 +20,11 @@ func Test_hello(t *testing.T) {
 		})
 	}
 }
+
+func BenchmarkHello(b *testing.B) {
+	b.ReportAllocs()
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		hello()
+	}
+}
