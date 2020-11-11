@@ -1,6 +1,8 @@
 package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func Test_hello(t *testing.T) {
 	tests := []struct {
@@ -8,7 +10,7 @@ func Test_hello(t *testing.T) {
 		want string
 	}{
 		{
-			name: "test",
+			name: "test01",
 			want: "歡迎來到 Go 世界",
 		},
 	}
