@@ -41,7 +41,10 @@ type Men interface {
 
 func main() {
 	tom := Singer{
-		Human:     Human{"Tom", 22},
+		Human: Human{
+			name: "Tom",
+			age:  22,
+		},
 		collecton: "learn golang",
 	}
 	peter := Student{
