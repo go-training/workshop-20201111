@@ -12,6 +12,7 @@
   ],
   "go.useLanguageServer": true,
   "[go]": {
+    // Optional: Disable snippets, as they conflict with completion ranking.
     "editor.snippetSuggestions": "none",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
