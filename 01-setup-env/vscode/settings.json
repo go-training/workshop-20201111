@@ -3,7 +3,7 @@
   "go.formatTool": "goimports",
   "go.lintTool": "revive",
   "go.lintFlags": [
-    "--exclude vendor/..."
+    "--exclude ./vendor/..."
   ],
   "go.docsTool": "gogetdoc",
   "go.autocompleteUnimportedPackages": true,
